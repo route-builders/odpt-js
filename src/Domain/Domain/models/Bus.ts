@@ -1,0 +1,25 @@
+export type Bus = {
+  '@context': string;
+  '@id': string;
+  '@type': string;
+  'owl:sameAs': string;
+  'odpt:busNumber': string;
+  'dc:date': string;
+  'dct:valid': string;
+  'odpt:frequency': number;
+  'odpt:busroutePattern': string;
+  'odpt:busTimetable'?: string;
+  'odpt:operator': string;
+  'odpt:startingBusstopPole'?: string;
+  'odpt:terminalBusstopPole'?: string;
+  'odpt:fromBusstopPole'?: string;
+  'odpt:fromBusstopPoleTime'?: string;
+  'odpt:toBusstopPole'?: string;
+  'odpt:progress'?: number;
+  'geo:long'?: number;
+  'geo:lat'?: number;
+  'odpt:speed'?: number;
+  'odpt:azimuth'?: number;
+  'odpt:doorStatus'?: 'open' | 'close' | 'self';
+  'odpt:occupancyStatus'?: number;
+};

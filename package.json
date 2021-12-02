@@ -1,0 +1,55 @@
+{
+  "name": "@route-builders/odpt-js",
+  "version": "1.0.0-dev",
+  "description": "The unofficial SDK for odpt.org API",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "author": {
+    "name": "up-tri",
+    "email": "yaki-shake@up-tri.me",
+    "url": "https://up-tri.me"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --clean",
+    "build:watch": "tsc --watch",
+    "build:prod": "tsc -p tsconfig.prod.json",
+    "build:webpack": "webpack",
+    "prepare": "tsc -p tsconfig.prod.json",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/route-builders/odpt-js.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/route-builders/odpt-js/issues"
+  },
+  "homepage": "https://github.com/route-builders/odpt-js#readme",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "@types/encoding-japanese": "^1.0.17",
+    "@types/node": "^15.3.0",
+    "@types/webpack": "^5.28.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.26.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.3.0",
+    "ts-jest": "^26.5.6",
+    "ts-loader": "^9.2.3",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
