@@ -26,7 +26,7 @@
     "type": "git",
     "url": "git+https://github.com/route-builders/odpt-js.git"
   },
-  "license": "MIT",
+  "license": "https://developer.odpt.org/terms/data_basic_license.html",
   "bugs": {
     "url": "https://github.com/route-builders/odpt-js/issues"
   },
