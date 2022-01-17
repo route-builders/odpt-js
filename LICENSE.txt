@@ -1,0 +1,3 @@
+This source code is under the "Public Transportation Open Data Basic License"
+
+license details URL: https://developer.odpt.org/en/terms/data_basic_license

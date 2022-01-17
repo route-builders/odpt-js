@@ -1,0 +1,3 @@
+このプログラムコードは、「公共交通オープンデータ基本ライセンス」に基づいて公開されます。
+
+ライセンス詳細URL: https://developer.odpt.org/terms/data_basic_license.html
