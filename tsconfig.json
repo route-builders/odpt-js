@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "lib": ["ES2018"],
+    "lib": ["ES2019"],
     "allowJs": true,
     "checkJs": true,
     "declaration": true,
@@ -44,5 +44,8 @@
   },
   "include": [
     "src/**/*"
+  ],
+  "exclude": [
+    "**/*.test.ts"
   ]
 }
